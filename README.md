@@ -39,8 +39,8 @@ If you would like to use my portfolio structure and/or styles yourself, please f
 ![resume page](./assets/resume-page.png)
 
 ## Links: 
-- Repository: [Link to the repository]
-- Deployed: [Link to the deployed website]
+- Repository: https://github.com/kemcclen/KM-Portfolio
+- Deployed: https://kemcclen.github.io/KM-Portfolio/
 
 ## Technologies
 
