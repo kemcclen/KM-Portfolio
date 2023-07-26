@@ -1,0 +1,47 @@
+/* Footer.css */
+@import url("https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap");
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5e4d4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+footer .logo,
+footer .konan,
+div .socials,
+a {
+  margin-right: 5px;
+  background-color: #f5e4d4;
+}
+
+footer p {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  bottom: 10px;
+  transform: translateX(-50%);
+  background-color: #f5e4d4;
+  padding: 5px 10px;
+  font-family: "Antic Didone", serif;
+  color: #d9b99b;
+}
+
+footer img {
+  /* background-color: #f5e4d4; */
+  transition: transform 0.2s;
+}
+
+footer img:hover {
+  transform: scale(1.1);
+}
+
+footer .socials a {
+  padding: 5px;
+}

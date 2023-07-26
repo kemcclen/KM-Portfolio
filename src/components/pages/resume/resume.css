@@ -1,0 +1,46 @@
+.resumePage,
+.resumeBody {
+  background-color: #faf0e6;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+.resumeDownload {
+  background-color: transparent;
+  margin-left: 10px;
+}
+.resumeDownload img:hover {
+  transform: scale(1.1);
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body .resumeBody {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.frontEnd,
+.backEnd {
+  width: 50%;
+}
+
+.resumeTitle,
+li {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  font-family: "Antic Didone", serif;
+  font-size: 20px;
+  font-weight: 1000;
+}

@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:wght@400;600&display=swap");
+
+* {
+  background-color: #faf0e6;
+}
+
+body {
+  background-color: #faf0e6;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: auto;
+  font-family: "Italiana", serif;
+  font-size: 20px;
+}
+
+p {
+  width: 80%;
+  line-height: 1.6;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  display: flex;
+}
+
+.aboutInfo {
+  margin-top: 140px;
+  margin-bottom: 200px;
+  width: 50%;
+  align-items: center;
+}
+
+div .card {
+  padding: 10px;
+  width: 50%;
+  background-color: #faf0e6;
+  border: none;
+  align-items: center;
+}
+
+@media only screen and (max-width: 555px) {
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aboutInfo h2 {
+    font-size: 20px;
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .aboutInfo p {
+    font-size: 12px;
+  }
+}
