@@ -43,19 +43,38 @@ div .card {
   align-items: center;
 }
 
-@media only screen and (max-width: 555px) {
+/* Media query for smaller screens */
+@media screen and (max-width: 555px) {
   section {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .aboutInfo {
+    width: 90%; 
+    order: 2; 
+    margin-top: 40px;
+    margin-bottom: 70px; 
   }
 
   .aboutInfo h2 {
-    font-size: 20px;
-    width: 100%;
-    margin-left: 10px;
+    font-size: 24px; 
+    width: 90%; 
+    margin-left: 0; 
+    margin-right: 0; 
   }
 
   .aboutInfo p {
-    font-size: 12px;
+    font-size: 14px; 
+  }
+
+  .card {
+    width: 90%; 
+    margin-top: 5px; 
+    order: 1; 
+  }
+
+  .butterfly {
+    width: 80px; 
   }
 }

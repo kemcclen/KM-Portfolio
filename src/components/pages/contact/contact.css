@@ -112,5 +112,16 @@ div .formSection {
   .contactForm {
     width: 90%;
     margin-top: 40px;
+    margin-bottom: 100px;
+    max-width: 400px; 
+  }
+
+  div .contactDetails,
+  div .formSection {
+    width: 100%; 
+  }
+
+  .contactTxt {
+    width: 90%; 
   }
 }

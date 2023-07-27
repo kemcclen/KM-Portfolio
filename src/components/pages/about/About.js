@@ -9,7 +9,7 @@ export default function About() {
     <section>
       <div className="aboutInfo">
         {/* Intro words  */}
-        <motion.h2
+        <motion.h1
           animate={{
             translateY: -40,
             transition: { duration: 0.5 },
@@ -19,7 +19,7 @@ export default function About() {
           }}
         >
           NICE TO MEET YOU{" "}
-        </motion.h2>
+        </motion.h1>
 
         <motion.h2
           animate={{
