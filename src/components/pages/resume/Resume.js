@@ -8,7 +8,7 @@ export default function Resume() {
   return (
     <div className="resumePage">
       {/* title and download button */}
-      <h1>
+      <h1 className="resumeTitle">
         Resume
         <a className="resumeDownload" href={resume} download>
           <img className="downloadImg" src={download} alt="download logo" />
@@ -24,7 +24,7 @@ export default function Resume() {
       >
         {/* front end */}
         <div className="frontEnd">
-          <h2 className="resumeTitle">Front-end Proficiencies</h2>
+          <h2 className="resumeSubtitle">Front-end Proficiencies</h2>
           <ul classname="resumeList">
             <li>HTML 5</li>
             <li>CSS 3</li>
@@ -39,7 +39,7 @@ export default function Resume() {
         </div>
         {/* back end */}
         <div className="backEnd">
-          <h2 className="resumeTitle">Back-end Proficiencies</h2>
+          <h2 className="resumeSubtitle">Back-end Proficiencies</h2>
           <ul classname="resumeList">
             <li>SQL</li>
             <li>MySQL</li>

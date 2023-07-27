@@ -59,7 +59,7 @@ export const Contact = () => {
       <section>
         {/* page text */}
         <div className="contactDetails">
-          <motion.h2
+          <motion.h2 className="contactTitle"
             animate={{
               translateY: -40,
               transition: { duration: 1 },
@@ -68,6 +68,7 @@ export const Contact = () => {
             GET IN TOUCH
           </motion.h2>
           <motion.h3
+          
             animate={{
               translateY: -40,
               transition: { duration: 1 },
@@ -86,9 +87,8 @@ export const Contact = () => {
             <ul className="contactList">
               <li> The purpose, goal, and target audience of your project </li>
               <li>
-                {" "}
-                Any specific features, functionalies or technologies you have in
-                mind{" "}
+                Any specific features, functionalities, or technologies you have
+                in mind
               </li>
               <li> Your desired timeline</li>
               <li> Examples of similar projects </li>

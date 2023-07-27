@@ -121,7 +121,18 @@ div .formSection {
     width: 100%; 
   }
 
+  .contactTitle {
+    font-size: 50px;
+  }
+
   .contactTxt {
     width: 90%; 
+    font-size: 27px;
+  }
+
+  .contactList li {
+    width: 90%;
+    font-size: 22px;
+    list-style: circle;
   }
 }

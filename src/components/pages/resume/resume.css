@@ -29,7 +29,7 @@ body .resumeBody {
   width: 50%;
 }
 
-.resumeTitle,
+.resumesubTitle,
 li {
   text-align: center;
 }
@@ -55,5 +55,19 @@ li {
 
   .frontEnd {
     margin-top: 35px;
+  }
+  .resumeTitle {
+    font-size: 50px;
+  }
+
+  .resumeSubtitle {
+    width: 90%;
+    font-size: 30px;
+  }
+
+  .frontEnd li,
+  .backEnd li {
+    width: 90%;
+    font-size: 22px;
   }
 }
