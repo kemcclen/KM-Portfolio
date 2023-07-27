@@ -57,11 +57,11 @@ function NavTabs({ currentPage, handlePageChange }) {
           Resume
         </a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-          <FaTimes />
+          <FaTimes color="black" />
         </button>
       </nav>
       <button className="nav-btn" onClick={showNavbar}>
-        <FaBars />
+        <FaBars color = "black" />
       </button>
     </header>
   );
