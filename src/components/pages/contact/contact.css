@@ -45,9 +45,11 @@ div .contactDetails {
   font-family: "Antic Didone", serif;
 }
 
-li {
+.contactList li {
   margin-top: 15px;
   margin-bottom: 15px;
+  list-style: circle;
+text-align: left;
 }
 
 div .formSection {

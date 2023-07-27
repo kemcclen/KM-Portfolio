@@ -17,6 +17,13 @@ h3 {
   font-size: 20px;
 }
 
+ .aboutTitle {
+    font-size: 48px;
+  }
+  .aboutSubtitle {
+    margin-top: 20px;
+  }
+
 p {
   width: 80%;
   line-height: 1.6;
@@ -57,6 +64,14 @@ div .card {
     margin-bottom: 70px; 
   }
 
+ .aboutTitle {
+    font-size: 39px;
+  }
+
+  .aboutSubtitle {
+    margin-top: -10px;
+  }
+
   .aboutInfo h2 {
     font-size: 24px; 
     width: 90%; 
@@ -65,12 +80,13 @@ div .card {
   }
 
   .aboutInfo p {
-    font-size: 14px; 
+    font-size: 18px; 
+    width: 90%;
   }
 
   .card {
     width: 90%; 
-    margin-top: 5px; 
+    margin-top: -40px; 
     order: 1; 
   }
 

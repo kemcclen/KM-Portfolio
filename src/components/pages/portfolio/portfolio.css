@@ -70,6 +70,7 @@
 
 .container .workCard .workContent h2 {
   background: transparent;
+  font-weight: 1000;
 }
 
 .container .workCard .workContent p {
@@ -83,3 +84,5 @@
   margin-left: 5px;
 }
 /* #6F5F5F */
+
+

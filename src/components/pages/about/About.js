@@ -14,11 +14,9 @@ export default function About() {
             translateY: -40,
             transition: { duration: 0.5 },
           }}
-          style={{
-            fontSize: "48px",
-          }}
+         className='aboutTitle'
         >
-          NICE TO MEET YOU{" "}
+          NICE TO MEET YOU
         </motion.h1>
 
         <motion.h2
@@ -26,9 +24,7 @@ export default function About() {
             translateY: -30,
             transition: { duration: 0.5, delay: 0.2 },
           }}
-          style={{
-            marginTop: "20px",
-          }}
+          className="aboutSubtitle"
         >
           Let's build something beautiful together
         </motion.h2>

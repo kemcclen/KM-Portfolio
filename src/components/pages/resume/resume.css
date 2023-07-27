@@ -63,6 +63,7 @@ li {
   .resumeSubtitle {
     width: 90%;
     font-size: 30px;
+    text-decoration: underline 1px;
   }
 
   .frontEnd li,
