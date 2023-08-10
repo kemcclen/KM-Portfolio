@@ -7,6 +7,9 @@ import JATE from "../../assets/JATE.png";
 import climavista from "../../assets/climavista.png";
 import wds from "../../assets/wdSched.png";
 import noteIt from "../../assets/noteIt.png";
+import comCore from "../../assets/ComCore.png";
+import workFlow from "../../assets/WorkFlow.png";
+import twf from "../../assets/TWF.png";
 import github from "../../assets/github.png";
 import link from "../../assets/link.png";
 
@@ -66,7 +69,7 @@ export default function Portfolio() {
               <h2>TASTY BYTES</h2>
               <p>Full stack recipe sharing platform</p>
               <a
-                href="https://github.com/kemcclen"
+                href="https://tastybyts-1e5618d2a801.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit the Tasty Bytes website (opens in a new window)"
@@ -216,6 +219,87 @@ export default function Portfolio() {
               </a>
               <a
                 href="https://github.com/kemcclen/Note-It"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit the note it Github (opens in a new window)"
+              >
+                <img className="logo" src={github} alt="github logo" />
+              </a>
+            </div>
+          </motion.div>
+          {/* CARD 7 */}
+          <motion.div
+            animate={{
+              translateY: -40,
+              transition: { duration: 2.3 },
+            }}
+            className="workCard"
+          >
+            <div className="imgBox">
+              <img
+                src={twf}
+                alt="user data with empty friends and thought fields"
+              />
+            </div>
+            <div className="workContent">
+              <h2>TWF</h2>
+              <p>Back end of an API for a Social Network App</p>
+              <a
+                href="https://github.com/kemcclen/ThoughtsWithFriends"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit the note it Github (opens in a new window)"
+              >
+                <img className="logo" src={github} alt="github logo" />
+              </a>
+            </div>
+          </motion.div>
+          {/* CARD 8 */}
+          <motion.div
+            animate={{
+              translateY: -40,
+              transition: { duration: 2.6 },
+            }}
+            className="workCard"
+          >
+            <div className="imgBox">
+              <img
+                src={comCore}
+                alt="data for shirts"
+              />
+            </div>
+            <div className="workContent">
+              <h2>ComCore</h2>
+              <p>Back end of an e-commerce database</p>
+              <a
+                href="https://github.com/kemcclen/ComCore"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit the note it Github (opens in a new window)"
+              >
+                <img className="logo" src={github} alt="github logo" />
+              </a>
+            </div>
+          </motion.div>
+          {/* CARD 9 */}
+          <motion.div
+            animate={{
+              translateY: -40,
+              transition: { duration: 2.9 },
+            }}
+            className="workCard"
+          >
+            <div className="imgBox">
+              <img
+                src={workFlow}
+                alt="employee info including name, role and salary"
+              />
+            </div>
+            <div className="workContent">
+              <h2>Work Flow</h2>
+              <p>Back end of a company database manager</p>
+              <a
+                href="https://github.com/kemcclen/WorkFlow"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Visit the note it Github (opens in a new window)"
