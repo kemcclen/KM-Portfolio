@@ -1,22 +1,25 @@
 {
   "files": {
     "main.css": "/KM-Portfolio/static/css/main.02fca099.css",
-    "main.js": "/KM-Portfolio/static/js/main.e178aed4.js",
+    "main.js": "/KM-Portfolio/static/js/main.45550359.js",
     "static/media/dovPhoto.png": "/KM-Portfolio/static/media/dovPhoto.9305d5f61370db85dea7.png",
     "static/media/tastyBytes.png": "/KM-Portfolio/static/media/tastyBytes.4754adee2cf76e5a84e5.png",
     "static/media/blue-butterfly.gif": "/KM-Portfolio/static/media/blue-butterfly.da2bec5cd7b80a681ce8.gif",
-    "static/media/KMResume.pdf": "/KM-Portfolio/static/media/KMResume.c7ac08cbb131e88a7e98.pdf",
+    "static/media/KMResume.pdf": "/KM-Portfolio/static/media/KMResume.1444280a183250cafa33.pdf",
+    "static/media/WorkFlow.png": "/KM-Portfolio/static/media/WorkFlow.c89e3c08ab1796fdcdd3.png",
     "static/media/climavista.png": "/KM-Portfolio/static/media/climavista.72174b204adf9b07c061.png",
     "static/media/starSigns.png": "/KM-Portfolio/static/media/starSigns.8836e986fc9fe2b4f38b.png",
     "static/media/wdSched.png": "/KM-Portfolio/static/media/wdSched.2f605e432f4e2873dfb0.png",
     "static/media/JATE.png": "/KM-Portfolio/static/media/JATE.239f3f1f72a4642d8531.png",
+    "static/media/ComCore.png": "/KM-Portfolio/static/media/ComCore.80190abffa4463469ea4.png",
     "static/media/noteIt.png": "/KM-Portfolio/static/media/noteIt.d40c933c7eaf5aeccc01.png",
+    "static/media/TWF.png": "/KM-Portfolio/static/media/TWF.2eb29aae6da3d5b3ff44.png",
     "index.html": "/KM-Portfolio/index.html",
     "main.02fca099.css.map": "/KM-Portfolio/static/css/main.02fca099.css.map",
-    "main.e178aed4.js.map": "/KM-Portfolio/static/js/main.e178aed4.js.map"
+    "main.45550359.js.map": "/KM-Portfolio/static/js/main.45550359.js.map"
   },
   "entrypoints": [
     "static/css/main.02fca099.css",
-    "static/js/main.e178aed4.js"
+    "static/js/main.45550359.js"
   ]
 }
