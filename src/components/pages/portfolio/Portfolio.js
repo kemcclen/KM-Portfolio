@@ -10,6 +10,10 @@ import noteIt from "../../assets/noteIt.png";
 import comCore from "../../assets/ComCore.png";
 import workFlow from "../../assets/WorkFlow.png";
 import twf from "../../assets/TWF.png";
+import cadence from "../../assets/Cadence.png";
+import booklook from "../../assets/BookLook.png";
+import technet from "../../assets/TechNet.png";
+
 import github from "../../assets/github.png";
 import link from "../../assets/link.png";
 
@@ -23,6 +27,112 @@ export default function Portfolio() {
             animate={{
               translateY: -40,
               transition: { duration: 0.5 },
+            }}
+            className="workCard"
+          >
+            <div className="imgBox">
+              <img
+                src={cadence}
+                alt="home page with search bar and playlist length selection"
+              />
+            </div>
+            <div className="workContent">
+              <h2>CADENCE</h2>
+              <p>AI powered playlist creator</p>
+              <a
+                href="https://cadence-music-8f49c24828dd.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit the note it website (opens in a new window)"
+              >
+                <img className="logo" src={link} alt="link logo" />
+              </a>
+              <a
+                href="https://github.com/kemcclen/Cadence"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit the note it Github (opens in a new window)"
+              >
+                <img className="logo" src={github} alt="github logo" />
+              </a>
+            </div>
+          </motion.div>
+
+          {/* CARD 2 */}
+          <motion.div
+            animate={{
+              translateY: -40,
+              transition: { duration: 0.8 },
+            }}
+            className="workCard"
+          >
+            <div className="imgBox">
+              <img
+                src={technet}
+                alt="home page with two blogposts titled '1' and '2'"
+              />
+            </div>
+            <div className="workContent">
+              <h2>TECH NET</h2>
+              <p>MVC Wordpress style blog</p>
+              <a
+                href="https://technet-0016a9aebc4f.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit the note it website (opens in a new window)"
+              >
+                <img className="logo" src={link} alt="link logo" />
+              </a>
+              <a
+                href="https://github.com/kemcclen/TechNet"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit the note it Github (opens in a new window)"
+              >
+                <img className="logo" src={github} alt="github logo" />
+              </a>
+            </div>
+          </motion.div>
+          {/* CARD 3 */}
+          <motion.div
+            animate={{
+              translateY: -40,
+              transition: { duration: 1.1 },
+            }}
+            className="workCard"
+          >
+            <div className="imgBox">
+              <img
+                src={booklook}
+                alt="home page with search option for books"
+              />
+            </div>
+            <div className="workContent">
+              <h2>BOOK LOOK</h2>
+              <p>MERN + React Book search</p>
+              <a
+                href="https://booklooksearch-2a41b6963e2e.herokuapp.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit the note it website (opens in a new window)"
+              >
+                <img className="logo" src={link} alt="link logo" />
+              </a>
+              <a
+                href="https://github.com/kemcclen/Book-Look/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visit the note it Github (opens in a new window)"
+              >
+                <img className="logo" src={github} alt="github logo" />
+              </a>
+            </div>
+          </motion.div>
+          {/* CARD 4*/}
+          <motion.div
+            animate={{
+              translateY: -40,
+              transition: { duration: 1.5 },
             }}
             className="workCard"
           >
@@ -53,12 +163,11 @@ export default function Portfolio() {
               </a>
             </div>
           </motion.div>
-
-          {/* CARD 2 */}
+          {/* CARD 5 */}
           <motion.div
             animate={{
               translateY: -40,
-              transition: { duration: 0.8 },
+              transition: { duration: 1.5 },
             }}
             className="workCard"
           >
@@ -87,11 +196,11 @@ export default function Portfolio() {
             </div>
           </motion.div>
 
-          {/* CARD 3 */}
+          {/* CARD 6 */}
           <motion.div
             animate={{
               translateY: -40,
-              transition: { duration: 1.1 },
+              transition: { duration: 1.5 },
             }}
             className="workCard"
           >
@@ -119,12 +228,11 @@ export default function Portfolio() {
               </a>
             </div>
           </motion.div>
-
-          {/* CARD 4 */}
+          {/* CARD 7 */}
           <motion.div
             animate={{
               translateY: -40,
-              transition: { duration: 1.4 },
+              transition: { duration: 1.5 },
             }}
             className="workCard"
           >
@@ -156,11 +264,11 @@ export default function Portfolio() {
             </div>
           </motion.div>
 
-          {/* CARD 5 */}
+          {/* CARD 8 */}
           <motion.div
             animate={{
               translateY: -40,
-              transition: { duration: 1.7 },
+              transition: { duration: 1.5 },
             }}
             className="workCard"
           >
@@ -192,11 +300,11 @@ export default function Portfolio() {
             </div>
           </motion.div>
 
-          {/* CARD 6 */}
+          {/* CARD 9 */}
           <motion.div
             animate={{
               translateY: -40,
-              transition: { duration: 2 },
+              transition: { duration: 1.5 },
             }}
             className="workCard"
           >
@@ -227,11 +335,12 @@ export default function Portfolio() {
               </a>
             </div>
           </motion.div>
-          {/* CARD 7 */}
+
+          {/* CARD 10 */}
           <motion.div
             animate={{
               translateY: -40,
-              transition: { duration: 2.3 },
+              transition: { duration: 1.5 },
             }}
             className="workCard"
           >
@@ -254,19 +363,16 @@ export default function Portfolio() {
               </a>
             </div>
           </motion.div>
-          {/* CARD 8 */}
+          {/* CARD 11 */}
           <motion.div
             animate={{
               translateY: -40,
-              transition: { duration: 2.6 },
+              transition: { duration: 1.5 },
             }}
             className="workCard"
           >
             <div className="imgBox">
-              <img
-                src={comCore}
-                alt="data for shirts"
-              />
+              <img src={comCore} alt="data for shirts" />
             </div>
             <div className="workContent">
               <h2>ComCore</h2>
@@ -281,11 +387,11 @@ export default function Portfolio() {
               </a>
             </div>
           </motion.div>
-          {/* CARD 9 */}
+          {/* CARD 12 */}
           <motion.div
             animate={{
               translateY: -40,
-              transition: { duration: 2.9 },
+              transition: { duration: 1.5 },
             }}
             className="workCard"
           >
