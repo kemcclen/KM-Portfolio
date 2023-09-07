@@ -52,6 +52,8 @@ export default function Resume() {
             <li>REST</li>
             <li>Node</li>
             <li>Express</li>
+            <li>Python</li>
+            <li>Ruby</li>
           </ul>
         </div>
       </motion.body>
