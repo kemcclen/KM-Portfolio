@@ -35,6 +35,7 @@ export default function Resume() {
             <li>React</li>
             <li>Bootstrap</li>
             <li>Handlebars</li>
+            <li>Jinja</li>
           </ul>
         </div>
         {/* back end */}
